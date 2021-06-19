@@ -19,7 +19,7 @@ window.onload = () => {
   }
 
   //Function link
-  document.getElementById("number-left").innerHTML = randomizer2();
-  document.getElementById("pinta").innerHTML = randomizer();
-  document.getElementById("number-right").innerHTML = randomizer2();
+  document.getElementById("number").innerHTML = randomizer2();
+  document.getElementById("pinta-left").innerHTML = randomizer();
+  document.getElementById("pinta-right").innerHTML = randomizer();
 };
